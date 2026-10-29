@@ -1,6 +1,7 @@
 cask "speakflow" do
-  version "0.9.0"
-  sha256 "612d8187ff893ba3a7a58eb2b3b51e0457df41a7318273087d4f80e39985b928"
+  version "0.10.0"
+  sha256 "db9fe90384fdbd37d0be7663f78eaefb756b179649dc725affc68b7d193568b1"
+  auto_updates true
 
   url "https://github.com/rezkam/SpeakFlow/releases/download/v#{version}/SpeakFlow.dmg"
   name "SpeakFlow"
